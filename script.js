@@ -2,7 +2,7 @@ let btn = document.getElementById("btn");
 
         btn.addEventListener("click",()=>{
         let text = document.getElementById("getText").value;
-        document.getElementById("btn").innerHTML = "<button id="btn">Loading <i class="fa fa-search" aria-hidden="true"></i></button>";
+        document.getElementById("btn").innerHTML = "<button id='btn'>Loading...</button>";
         //Credits to the API
             fetch('https://api.covid19api.com/summary')
             .then((covidData)=>{
@@ -10,7 +10,7 @@ let btn = document.getElementById("btn");
             })
            //Fetches the Information from the API in JSON format
             .then((getData)=>{
-                document.getElementById("btn").innerHTML = "<button id="btn">Search <i class="fa fa-search" aria-hidden="true"></i></button>";
+                document.getElementById("btn").innerHTML = "<button id='btn'>Search <i class='fa fa-search' aria-hidden='true'></i></button>";
                 console.log(getData);
                 var content = document.querySelector(".data");
 
