@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Covid Tracker</title>
+    <title>COVID-19 Tracker</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="inputBox">
+    <div class="cover">
+      <div class="inputBox">
       <input type="text" list="country" id="getText" />
       <button id="btn">
         Search <i class="fa fa-search" aria-hidden="true"></i>
@@ -47,8 +48,8 @@
         <option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
         <option value="Botswana">Botswana</option>
         <option value="Brazil">Brazil</option>
-        <option value="British Indian Ocean Ter">
-          British Indian Ocean Ter
+        <option value="British Indian Ocean Territory">
+          British Indian Ocean Territory
         </option>
         <option value="Brunei">Brunei</option>
         <option value="Bulgaria">Bulgaria</option>
@@ -99,7 +100,7 @@
         <option value="France">France</option>
         <option value="French Guiana">French Guiana</option>
         <option value="French Polynesia">French Polynesia</option>
-        <option value="French Southern Ter">French Southern Ter</option>
+        <option value="French Southern Territory">French Southern Territory</option>
         <option value="Gabon">Gabon</option>
         <option value="Gambia">Gambia</option>
         <option value="Georgia">Georgia</option>
@@ -135,8 +136,8 @@
         <option value="Kazakhstan">Kazakhstan</option>
         <option value="Kenya">Kenya</option>
         <option value="Kiribati">Kiribati</option>
-        <option value="Korea North">Korea North</option>
-        <option value="Korea Sout">Korea South</option>
+        <option value="Korea (North)">Korea (North)</option>
+        <option value="Korea (South)">Korea (South)</option>
         <option value="Kuwait">Kuwait</option>
         <option value="Kyrgyzstan">Kyrgyzstan</option>
         <option value="Laos">Laos</option>
@@ -247,7 +248,7 @@
         <option value="Tunisia">Tunisia</option>
         <option value="Turkey">Turkey</option>
         <option value="Turkmenistan">Turkmenistan</option>
-        <option value="Turks & Caicos Is">Turks & Caicos Is</option>
+        <option value="Turks & Caicos Islands">Turks & Caicos Islands</option>
         <option value="Tuvalu">Tuvalu</option>
         <option value="Uganda">Uganda</option>
         <option value="United Kingdom">United Kingdom</option>
@@ -262,7 +263,7 @@
         <option value="Vatican City State">Vatican City State</option>
         <option value="Venezuela">Venezuela</option>
         <option value="Vietnam">Vietnam</option>
-        <option value="Virgin Islands (Brit)">Virgin Islands (Brit)</option>
+        <option value="Virgin Islands (Brit)">Virgin Islands (British)</option>
         <option value="Virgin Islands (USA)">Virgin Islands (USA)</option>
         <option value="Wake Island">Wake Island</option>
         <option value="Wallis & Futana Is">Wallis & Futana Is</option>
@@ -271,8 +272,8 @@
         <option value="Zambia">Zambia</option>
         <option value="Zimbabwe">Zimbabwe</option>
       </datalist>
-      <span id="loader"></span>
     </div>
+  </div>
     <div class="data"></div>
     <script src="script.js"></script>
   </body>
