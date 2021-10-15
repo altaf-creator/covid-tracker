@@ -1,6 +1,8 @@
 # Covid-19-Tracker
 
 This is a fork from [LucyCoderr/covid-tracker](https://github.com/LucyCoderr/covid-tracker)  
+I added some twists to the CSS and the code.  
+  
 A Basic Covid-19 Cases Tracker.  
  *Note: This only works for Countries.*
 
