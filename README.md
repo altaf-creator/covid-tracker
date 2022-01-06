@@ -1,4 +1,4 @@
-# Covid-19-Tracker
+# COVID-19 Tracker
 
 This is a fork from [LucyCoderr/covid-tracker](https://github.com/LucyCoderr/covid-tracker)  
 I added some twists to the CSS and the code.  
